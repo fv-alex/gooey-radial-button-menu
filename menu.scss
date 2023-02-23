@@ -5,7 +5,7 @@ $max: 5;
 
 .animation {
 	transition-duration: 600ms;
-    transition-property: offset-distance;
+    transition-property: all;
     transition-timing-function:  ease-in-out;
 }
 
@@ -34,7 +34,7 @@ $max: 5;
 				&-#{$i} {
 					offset-distance: $i * (70% / $max);
 					transition-delay: $i * 50ms;
-					img {
+					svg {
 						transition-delay: $i * 150ms;
 						opacity: 1;
 						scale: 0.7;
@@ -84,7 +84,7 @@ $max: 5;
 
 		@extend .animation;
 
-		img {
+		svg {
 			opacity: 0;
 			scale: 0;
 
