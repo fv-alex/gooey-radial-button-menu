@@ -19,7 +19,7 @@ npm run dev
 ```
 
 ## Mitwirkende
-Johannes Schiel, https://www.youtube.com/@UnleashedDesign/about
+Erstellt von Johannes Schiel, https://www.youtube.com/@UnleashedDesign/about
 
 ## Lizenz
 
