@@ -1,3 +1,4 @@
+@use "sass:math";
 @import './variables.scss';
 
 $size: 3rem;
@@ -32,7 +33,7 @@ $max: 5;
 			transition-delay: 50ms;
 			@for $i from 1 through $max {
 				&-#{$i} {
-					offset-distance: $i * (70% / $max);
+					offset-distance: $i * math.div(70%, $max);
 					transition-delay: $i * 50ms;
 					svg {
 						transition-delay: $i * 150ms;
